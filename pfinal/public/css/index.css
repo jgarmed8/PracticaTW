@@ -1,0 +1,29 @@
+body{
+    font-family: 'Segoe UI';
+    background-color: #FAF8F5;
+}
+
+h1{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    font-weight: 300 ;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-style: oblique;
+
+}
+
+.expl{
+    text-align: center;
+    font-style: italic;
+}
