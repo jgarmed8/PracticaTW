@@ -25,8 +25,9 @@
         <nav class="menu" aria-label="Menú principal">
             <a href="{{ route('inicio') }}">Inicio</a>
             <a href="{{ route('catalogo') }}">Catálogo</a>
-            <a href="#">Carrito</a>
-            <a href="#">Perfil</a>
+            <a href="{{ route('carrito') }}">Carrito</a>
+            <a href="{{ route('deseos') }}">Deseos</a>
+            <a href="{{ route('perfil') }}">Perfil</a>
             <a href="{{ route('contacto') }}">Contacto</a>
         </nav>
     </header>
