@@ -7,7 +7,11 @@ use App\Http\Controllers\DeseosController;
 use App\Http\Controllers\PerfilController;
 
 Route::get('/', function () {
-    return view('index');
+
+    $todosLosProductos = config('productos');
+    $productosDestacados = is_array($todosLosProductos) ? array_slice($todosLosProductos, 0, 3) : [];
+
+    return view('index', compact('productosDestacados'));
 })->name('inicio');
 
 Route::get('/catalogo', [CatalogoController::class, 'index'])->name('catalogo');
