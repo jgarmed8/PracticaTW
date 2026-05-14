@@ -14,7 +14,13 @@ body {
 .cabecera {
     background-color: #4b2f22;
     color: white;
-    padding: 22px 0;
+    overflow: hidden;
+
+    max-height: 90px;
+    transition: max-height 0.4s ease;
+}
+.cabecera:hover {
+    max-height: 280px;
 }
 
 .cabecera-contenido {
@@ -23,6 +29,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 40px;
 }
 
 .marca {
@@ -30,6 +37,16 @@ body {
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
+}
+.marca-bloque {
+    display: flex;
+    flex-direction: column;
+}
+
+.submarca {
+    margin: 0;
+    font-size: 0.95rem;
+    opacity: 0.8;
 }
 
 .cabecera p {
@@ -46,17 +63,25 @@ body {
 
 .menu {
     width: 80%;
+    justify-content: center;
+    padding: 0 40px 20px;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
     margin: 18px auto 0 auto;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
+}
+.cabecera:hover .menu {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .menu a {
     background-color: #f0d8c2;
     color: #3a271e;
     text-decoration: none;
-    padding: 10px 18px;
+    padding: 10px 14px;
     border-radius: 8px;
     font-weight: bold;
 }
