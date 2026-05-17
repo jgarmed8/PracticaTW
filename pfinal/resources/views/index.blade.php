@@ -51,8 +51,8 @@
     <div class="productos-destacados">
         <div class="producto-mini">
             <div class="producto-mini-imagen">
-                <figure class="producto-imagen">
-                    <img src="img/productos/cabezones.png" alt="Cabezones">
+                <figure class="producto-mini-foto">
+                    <img src="{{ asset('img/productos/cabezones.png') }}" alt="Cabezones">
                 </figure>
             </div>
             <div class="producto-mini-info">
@@ -70,33 +70,44 @@
         </div>
   
         <div class="producto-mini">
-            <div class="producto-mini-imagen">🧺</div>
+            <div class="producto-mini-imagen">
+                <figure class="producto-mini-foto">
+                    <img src="{{ asset('img/productos/estrella.jpeg') }}"  alt="estrella">
+                </figure>
+
+            </div>
             <div class="producto-mini-info">
                 <div class="producto-mini-cabecera">
-                    <span class="badge-cat">Textil</span>
+                    <span class="badge-cat">Papel</span>
                     <span class="badge-nuevo">Destacado</span>
                 </div>
-                <h3>Cesta de esparto tejida</h3>
-                <p>Tejida artesanalmente con técnicas tradicionales del sur de España.</p>
+                <h3>Estrellita con cara</h3>
+                <p>Figura de una estrella un poco especial</p>
                 <div class="producto-mini-footer">
-                    <span class="precio">24 €</span>
-                    <a href="{{ url('/producto/cesta-esparto') }}" class="boton-ver">Ver pieza</a>
+                    <span class="precio">12,99 €</span>
+                    <a href="{{ url('/producto/estrella-guapa') }}" class="boton-ver">Ver pieza</a>
                 </div>
             </div>
         </div>
  
         <div class="producto-mini">
-            <div class="producto-mini-imagen">🪵</div>
+            <div class="producto-mini-imagen">
+                 <figure class="producto-mini-foto">
+                    <img src="{{ asset('img/productos/piedras.jpeg') }}" alt="piedras con caras">
+                </figure>
+
+            </div>
+
             <div class="producto-mini-info">
                 <div class="producto-mini-cabecera">
-                    <span class="badge-cat">Madera</span>
+                    <span class="badge-cat">Arcilla</span>
                     <span class="badge-nuevo">Limitado</span>
                 </div>
-                <h3>Cuenco de olivo</h3>
-                <p>Tallado a mano en madera de olivo centenario. Pieza única con certificado.</p>
+                <h3>Surtido de piedras</h3>
+                <p>Piedras con rostros...elige la que más te represente!</p>
                 <div class="producto-mini-footer">
-                    <span class="precio">55 €</span>
-                    <a href="{{ url('/producto/cuenco-olivo') }}" class="boton-ver">Ver pieza</a>
+                    <span class="precio">7,90 €</span>
+                    <a href="{{ url('/producto/piedras-pintadas') }}" class="boton-ver">Ver pieza</a>
                 </div>
             </div>
         </div>
