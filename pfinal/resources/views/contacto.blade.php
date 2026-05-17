@@ -17,6 +17,8 @@
                 id="nombre"
                 name="nombre"
                 class="w-64"
+                placeholder="Nompre Apellidos"
+
                 required
                 minlength="3"
                 maxlength="50"
@@ -32,6 +34,7 @@
                 id="email"
                 name="email"
                 class="w-64"
+                placeholder="ejemplo@gmail.com"
                 required
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                 title="Introduce un correo válido (ejemplo: usuario@dominio.com)"
@@ -44,6 +47,7 @@
                 id="mensaje"
                 name="mensaje"
                 class="w-full h-40"
+                placeholder="Escribe tu mensaje aquí..."
                 required
                 minlength="10"
                 maxlength="500"
@@ -51,7 +55,15 @@
             ></textarea>
         </div>
 
-        <button type="submit">Enviar</button>
+         <div class="botones-formulario">
+            <button type="submit" class="boton boton-principal">
+                Enviar
+            </button>
+
+            <button type="reset" class="boton boton-secundario">
+                Limpiar campos
+            </button>
+        </div>
     </form>
 </section>
 

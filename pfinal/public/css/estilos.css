@@ -358,6 +358,13 @@ body {
     cursor: pointer;
 }
 
+.botones-formulario {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+
 .boton-secundario {
     border: 1px solid #7b4b31;
     background-color: white;
@@ -941,6 +948,11 @@ body {
 
 .boton-banner:hover {
     background-color: white;
+}
+/* ── CONTACTA ── */
+textarea {
+   min-width:  300px;
+    resize: vertical;
 }
 
 /* ── VALORES ── */

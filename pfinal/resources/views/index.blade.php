@@ -1,35 +1,8 @@
+@extends('layouts.app')
+@section('title', 'Inicio - Origenia')
+@section('content')
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Origenia — Artesanía con Alma</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
-</head>
-<body>
- 
-<!-- CABECERA -->
-<header class="cabecera">
-    <div class="cabecera-contenido">
-        <div>
-            <a href="{{ url('/') }}" class="marca">Origenia</a>
-            <p>Artesanía local y sostenible</p>
-        </div>
-        <a href="{{ route('perfil') }}" class="usuario">Iniciar sesión</a>
-    </div>
-    <nav class="menu">
-        <a href="{{ url('/') }}">Inicio</a>
-        <a href="{{ url('/catalogo') }}">Catálogo</a>
-        <a href="{{ url('/artesanos') }}">Artesanos</a>
-        <a href="{{ url('/colecciones') }}">Colecciones</a>
-        <a href="{{ url('/sobre-nosotros') }}">Sobre nosotros</a>
-    </nav>
-</header>
- 
+
 <!-- HERO -->
 <section class="hero">
     <div class="hero-contenido">
@@ -78,7 +51,7 @@
     <div class="productos-destacados">
         <div class="producto-mini">
             <div class="producto-mini-imagen">
-                <figure class="producto-imagen>
+                <figure class="producto-imagen">
                     <img src="img/productos/cabezones.png" alt="Cabezones">
                 </figure>
             </div>
@@ -172,6 +145,5 @@
 <footer class="pie">
     <p>© 2025 Origenia · Artesanía local y sostenible · <a href="{{ url('/contacto') }}">Contacto</a> · <a href="{{ url('/privacidad') }}">Privacidad</a></p>
 </footer>
- 
-</body>
-</html>
+ @endsection
+
