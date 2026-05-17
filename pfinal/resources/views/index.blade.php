@@ -117,14 +117,6 @@
         <a href="{{ url('/catalogo') }}" class="boton-ver-todos">Ver todo el catálogo →</a>
     </div>
  
-    <!-- BANNER ARTESANOS -->
-    <div class="banner-artesanos">
-        <div>
-            <h2>¿Eres artesano o artesana?</h2>
-            <p>Únete a nuestra comunidad de creadores locales y lleva tus piezas a miles de personas que valoran lo hecho a mano. Sin intermediarios, sin complicaciones.</p>
-        </div>
-        <a href="{{ url('/artesanos/registro') }}" class="boton-banner">Empieza a vender</a>
-    </div>
  
     <!-- VALORES -->
     <div class="seccion-titulo">
