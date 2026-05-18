@@ -67,7 +67,7 @@ return [
         'nombre' => 'Hombrecillo con pies grandes',
         'categoria' => 'Decoración',
         'descripcion' => 'Un hombre con una talla de pie...un poco grande',
-        'precio' => 15,90,
+        'precio' => 15.90,
         'stock' => 2,
         'imagen' => 'img/productos/piezudo.jpeg',
         'alt' => 'Hombre con grandes pies',
