@@ -7,11 +7,10 @@
 <section class="hero">
     <div class="hero-contenido">
         <span class="hero-etiqueta">✦ Artesanía auténtica</span>
-        <h1>Donde las manos<br><em>cuentan historias.</em></h1>
+        <h1>Donde las manos</h1><h1>cuentan historias.</h1>
         <p class="hero-subtitulo">Artesanía local, sostenible y con alma. Descubre piezas únicas hechas con dedicación en nuestra región.</p>
         <div class="hero-acciones">
             <a href="{{ url('/catalogo') }}" class="boton-hero-principal">Explorar catálogo</a>
-            <a href="{{ url('/artesanos') }}" class="boton-hero-secundario">Conocer artesanos</a>
         </div>
     </div>
 </section>
@@ -126,17 +125,14 @@
  
     <div class="valores">
         <div class="valor">
-            <span class="valor-icono">🌱</span>
             <h3>Sostenibilidad</h3>
             <p>Trabajamos solo con artesanos que utilizan materiales responsables y procesos respetuosos con el medio ambiente.</p>
         </div>
         <div class="valor">
-            <span class="valor-icono">🏡</span>
             <h3>Economía local</h3>
             <p>Cada compra apoya directamente a creadores de nuestra región, fortaleciendo el tejido cultural y económico local.</p>
         </div>
         <div class="valor">
-            <span class="valor-icono">✨</span>
             <h3>Unicidad garantizada</h3>
             <p>Cada pieza es diferente. No encontrarás dos iguales: eso es precisamente lo que hace especial a la artesanía.</p>
         </div>
